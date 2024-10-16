@@ -1,0 +1,135 @@
+# depslib dependency file v1.0
+1704421348 source:c:\users\mohamed sabbar\desktop\gestion des etudiants\main.c
+	<stdio.h>
+	<windows.h>
+	<time.h>
+	"login.h"
+
+1704421475 c:\users\mohamed sabbar\desktop\gestion des etudiants\login.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"home.h"
+	<windows.h>
+
+1704419296 c:\users\mohamed sabbar\desktop\gestion des etudiants\home.h
+	<stdio.h>
+	<conio.h>
+	<time.h>
+	"réinscription.h"
+	"delibitarions.h"
+	"affiche les informations.h"
+	"supprime etudiant.h"
+	"ajouter un etudiant.h"
+	"recherche sur etudiant.h"
+
+1704421997 c:\users\mohamed sabbar\desktop\gestion des etudiants\réinscription.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<unistd.h>
+
+1704476861 c:\users\mohamed sabbar\desktop\gestion des etudiants\delibitarions.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+
+1704334071 c:\users\mohamed sabbar\desktop\gestion des etudiants\affiche les informations.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+
+1704309825 c:\users\mohamed sabbar\desktop\gestion des etudiants\supprime etudiant.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	<unistd.h>
+
+1704425505 c:\users\mohamed sabbar\desktop\gestion des etudiants\ajouter un etudiant.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+
+1704416128 c:\users\mohamed sabbar\desktop\gestion des etudiants\recherche sur etudiant.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+
+1704421348 source:c:\users\mohamed sabbar\desktop\projets\projet de c\projet\gestion des etudiants\main.c
+	<stdio.h>
+	<windows.h>
+	<time.h>
+	"login.h"
+
+1704421475 c:\users\mohamed sabbar\desktop\projets\projet de c\projet\gestion des etudiants\login.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"home.h"
+	<windows.h>
+
+1704419296 c:\users\mohamed sabbar\desktop\projets\projet de c\projet\gestion des etudiants\home.h
+	<stdio.h>
+	<conio.h>
+	<time.h>
+	"réinscription.h"
+	"delibitarions.h"
+	"affiche les informations.h"
+	"supprime etudiant.h"
+	"ajouter un etudiant.h"
+	"recherche sur etudiant.h"
+
+1704421997 c:\users\mohamed sabbar\desktop\projets\projet de c\projet\gestion des etudiants\réinscription.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<unistd.h>
+
+1704476861 c:\users\mohamed sabbar\desktop\projets\projet de c\projet\gestion des etudiants\delibitarions.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+
+1704334071 c:\users\mohamed sabbar\desktop\projets\projet de c\projet\gestion des etudiants\affiche les informations.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+
+1704309825 c:\users\mohamed sabbar\desktop\projets\projet de c\projet\gestion des etudiants\supprime etudiant.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	<unistd.h>
+
+1704425505 c:\users\mohamed sabbar\desktop\projets\projet de c\projet\gestion des etudiants\ajouter un etudiant.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+
+1704416128 c:\users\mohamed sabbar\desktop\projets\projet de c\projet\gestion des etudiants\recherche sur etudiant.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+

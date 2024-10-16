@@ -1,0 +1,96 @@
+#include<stdio.h>
+#include<conio.h>
+#include<time.h>
+#include "réinscription.h"
+#include "delibitarions.h"
+#include "affiche les informations.h"
+#include "supprime etudiant.h"
+#include "ajouter un etudiant.h"
+void gotoxy(int x, int y) {
+    COORD coord;
+    coord.X = x;
+    coord.Y = y;
+    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);}
+ int n;
+void accueil(char nom[], char prenom[],char b[],char CNE[]) {
+       time_t t;
+    struct tm*now;
+    time(&t);
+    now = localtime(&t);
+    gotoxy(90,0);
+     printf("la derniere connexion : %02d:%02d:%02d\n", now->tm_hour, now->tm_min, now->tm_sec);
+    gotoxy(80,6);
+printf("************Bonjour  %s %s  %s************\n", nom, prenom,CNE);
+    gotoxy(80,7);
+    printf("1 - Afficher votre informations \n");
+        gotoxy(80,8);
+    printf("2 - Faire reascription \n");
+        gotoxy(80,9);
+    printf("3-Quitter le platforme\n");
+        gotoxy(80,10);
+     printf("choissit un de ces choix:");
+    scanf("%d",&n);
+    switch (n){
+case 2:
+rinscription(CNE);
+break;
+case 21:
+deliEtu(CNE);
+break;
+case 3:
+return 0;
+default:
+    printf("ce choix n'existe pas ");
+
+    }
+
+}
+void accueil_admin(){
+ time_t t;
+    struct tm*now;
+    time(&t);
+    now = localtime(&t);
+    gotoxy(90,0);
+     printf("la derniere connexion : %02d:%02d:%02d\n", now->tm_hour, now->tm_min, now->tm_sec);
+    gotoxy(80,6);
+     printf("************Bonjour  Monsieur Adminstrateur ************\n");
+     gotoxy(80,7);
+    printf("1 - Afficher les infornations d'un etudiant\n");
+    gotoxy(80,8);
+    printf("2 - ajouter un etudiant\n");
+    gotoxy(80,9);
+    printf("3 - Afficher les deliberations \n");
+    gotoxy(80,10);
+    printf("4 - supprimer un etudiants \n");
+gotoxy(80,11);
+    printf("5 - Quitter\n");
+    gotoxy(80,12);
+    printf("choissit un de ces choix:");
+
+    scanf("%d",&n);
+    switch (n){
+
+case 2:
+ajoute();
+case 3:
+ deliberation(choixR());
+ break;
+case 4:
+deleteStudent();
+break;
+case 5:
+
+return 0;
+break;
+default:
+    printf("ce choix n'existe pas ");
+
+    }
+}
+
+
+
+
+
+
+
