@@ -1,2 +1,3 @@
 # Students-management
-An application of students management using C language
+This student management project aims to improve the organization and monitoring of students within our school. By creating an efficient management system, we seek to simplify administrative processes and offer personalized support to each student. This initiative aims to make the school experience more fluid, more transparent and more adapted to the individual needs of learners.
+It contains two parts: student part which has permissions to transfer their grades and their information such as CNE and CNI ..... also to re-register in the school. Administrator part which has permissions to see all the students of a class that this administrator has chosen and the information to import students as well and also add or delete students
